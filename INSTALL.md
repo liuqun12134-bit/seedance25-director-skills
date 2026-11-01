@@ -23,8 +23,10 @@
 ## 验收
 
 1. 两个独立技能分别显示为 seedance25-director 与 talk-and-use-director。
-2. 标准版有 SKILL.md 与 2 份 references 文件；使用版有 SKILL.md 与 5 份 references 文件；文件清单见 manifest.json。
+2. 完整安装 SKILL.md、references、scripts、templates、agents 与 learning-config.json；文件清单见 manifest.json。
 3. 新对话能重新选用技能。若未能验证新对话持久调用，明确标注未验证。
 4. 真实任务再上传首帧、人物参考、产品参考和完整音频。音频不能读取时应如实说明；无可靠时间戳时不得声称精确逐句对齐。
 
 安装时无需生成视频、付费或上传任何真实素材。
+
+1.1.0 自优化需 Python 3.10+ 和持久写权限。首次默认关闭；更新时保留外置个人状态，不用新默认值清空。无脚本能力仍可读规则，但应说明开关/经验未持久保存。

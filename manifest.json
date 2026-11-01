@@ -1,20 +1,24 @@
 {
-  "export_version": "2026.10.31.1",
+  "export_version": "2026.11.01.1",
   "repository": "https://github.com/liuqun12134-bit/seedance25-director-skills",
   "skills": [
     {
       "name": "seedance25-director",
-      "title": "Seedance 2.5 电商口播导演（标准版）",
-      "source_plugin": "seedance25-commerce-director",
-      "source_version": "1.0.1",
+      "version": "1.1.0",
       "directory": "skills/seedance25-director",
+      "zip_path": "dist/seedance25-director.zip",
       "zip_url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/dist/seedance25-director.zip",
-      "zip_sha256": "ae4bc3b874ead756477797510272c6b4fd1dcd919c1961ac54372fab8e4891e3",
+      "zip_sha256": "6efa78d2987a63f5f000d97e2ce7831c4f8f0d4c28442d5207e024275e8b5615",
       "files": [
         {
-          "path": "SKILL.md",
-          "sha256": "12febbd32c0011bacc7c502839d6f9aef7a5425a458513693079bc9d5ef0aabd",
-          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/seedance25-director/SKILL.md"
+          "path": "agents/openai.yaml",
+          "sha256": "810cc82d395219e25cb3b49e3407f3ba7573f60c72d2e2945d57adbf09b9994d",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/seedance25-director/agents/openai.yaml"
+        },
+        {
+          "path": "learning-config.json",
+          "sha256": "375e96164c2ebee5850e74525801ed0f4e201b78583a1f119e4e2c01e1be2709",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/seedance25-director/learning-config.json"
         },
         {
           "path": "references/quality-checklist.md",
@@ -22,25 +26,49 @@
           "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/seedance25-director/references/quality-checklist.md"
         },
         {
+          "path": "references/self-optimization.md",
+          "sha256": "771d4c95decef0d7a6e4d6b2b3c189541cac30dc9bb121fa242fa88eb3011614",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/seedance25-director/references/self-optimization.md"
+        },
+        {
           "path": "references/zuzu-successful-example.md",
           "sha256": "07089373f10a275165e63a10dc2d02ff8a692c7c0d66ad3c4c621e9debc0a668",
           "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/seedance25-director/references/zuzu-successful-example.md"
+        },
+        {
+          "path": "scripts/learning.py",
+          "sha256": "f521ced595ad4989d90313135bbc4a5da653885f18261543b9be211efc4dd82a",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/seedance25-director/scripts/learning.py"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "5c4abab1ec2c8297a7750bf15e219df01f726dc682d1573930ebf571d74eb071",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/seedance25-director/SKILL.md"
+        },
+        {
+          "path": "templates/learning-record.json",
+          "sha256": "67430ad7a6bcb5c574802652fb86a85abea31636a25f6c820b57b1b36d5b22e9",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/seedance25-director/templates/learning-record.json"
         }
       ]
     },
     {
       "name": "talk-and-use-director",
-      "title": "Seedance 2.5 电商口播导演（边讲边使用版）",
-      "source_plugin": "seedance25-commerce-use-director",
-      "source_version": "1.0.5",
+      "version": "1.1.0",
       "directory": "skills/talk-and-use-director",
+      "zip_path": "dist/talk-and-use-director.zip",
       "zip_url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/dist/talk-and-use-director.zip",
-      "zip_sha256": "6f30b92df0b53083812a0a8f502035ae081c00c284a19333d2449dcc20afa0b5",
+      "zip_sha256": "35ea2052863a0efecc2829751d1b0424c2fb44ccdb96227974898d6d5b83ae63",
       "files": [
         {
-          "path": "SKILL.md",
-          "sha256": "2928e7780db8498b5ebaca1e779e138766816d91e287d690455629ac59f9c266",
-          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/talk-and-use-director/SKILL.md"
+          "path": "agents/openai.yaml",
+          "sha256": "7046ce289460eecf772902aada289e74cde7bef3c57a37272c915821453869a0",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/talk-and-use-director/agents/openai.yaml"
+        },
+        {
+          "path": "learning-config.json",
+          "sha256": "39c3e7553eb9b9ab69819df5823fc2850d9abb4def5dbf5191a52e1278e17b8d",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/talk-and-use-director/learning-config.json"
         },
         {
           "path": "references/action-library.md",
@@ -66,6 +94,26 @@
           "path": "references/reference-video-study.md",
           "sha256": "d1f005032c7cb33b52e3db5ae899f8c5550b2c19d731d26a0ee7767af6d6177e",
           "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/talk-and-use-director/references/reference-video-study.md"
+        },
+        {
+          "path": "references/self-optimization.md",
+          "sha256": "771d4c95decef0d7a6e4d6b2b3c189541cac30dc9bb121fa242fa88eb3011614",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/talk-and-use-director/references/self-optimization.md"
+        },
+        {
+          "path": "scripts/learning.py",
+          "sha256": "f521ced595ad4989d90313135bbc4a5da653885f18261543b9be211efc4dd82a",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/talk-and-use-director/scripts/learning.py"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "af38897fbb5469c508951509cbc2c67013b73cd3956968c4da1c2888505090a1",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/talk-and-use-director/SKILL.md"
+        },
+        {
+          "path": "templates/learning-record.json",
+          "sha256": "67430ad7a6bcb5c574802652fb86a85abea31636a25f6c820b57b1b36d5b22e9",
+          "url": "https://raw.githubusercontent.com/liuqun12134-bit/seedance25-director-skills/main/skills/talk-and-use-director/templates/learning-record.json"
         }
       ]
     }

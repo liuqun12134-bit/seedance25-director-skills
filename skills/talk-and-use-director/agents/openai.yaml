@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance 2.5 边讲边使用导演"
+  short_description: "编排完整原声导演稿，按需检索动作与经验，并可开关任务自优化"
+  default_prompt: "请使用 $talk-and-use-director 根据我的素材编排导演稿。"
